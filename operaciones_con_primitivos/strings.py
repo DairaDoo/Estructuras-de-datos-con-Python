@@ -1,3 +1,5 @@
+#STRING
+
 x = "Cake"
 y = "Cookie"
 

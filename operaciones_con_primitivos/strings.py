@@ -11,13 +11,13 @@ print(x * 2)
 print(x + ' & ' + y)
 
 # Range Slicing
-z1 = x[2:] # z1 = x[2:4]
-print(z1)
+z1 = x[4:] # z1 = x[2:4]
+print("Range slicing:" , z1)
 
 #Slicing
 z2 = y[0] + y[3] # piensa en los index de ese string.
 
-print(z2)
+print("Slicing: " , z2)
 
 # añadir mayúsculas
 print(str.capitalize('cookie'))
@@ -42,5 +42,4 @@ print(str1.replace('4 U', str2))
 # devuelve 3 por que el kie comienza ahí
 str3 = 'cookie'
 str4 = 'kie'
-print(str3.find(str4))
-
+print(str3.find('kie'))
